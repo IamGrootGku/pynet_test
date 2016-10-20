@@ -1,0 +1,15 @@
+
+in python file, add line:
+from ciscoconfparse import CiscoConfParse
+
+CiscoConfParse("cisco.txt")
+.find_objects(r"^interface")
+.find_objects_w_child(parentspec=r"^interface", childspec=r"^no ip address")
+.find_objects_wo_child(parentspec=r"^interface", childspec=r"^no ip address")
+.find_objects(r"^ip ssh")[0]
+.is_parent
+.is_child
+.children
+.parent
+.all_children
+.all_parents

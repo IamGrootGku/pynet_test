@@ -1,0 +1,24 @@
+Bundle1 is up, line protocol is up 
+  Hardware is Cable Virtual-bundle interface, address is aaaa.bbbb.cccc (bia aaaa.bbbb.cccc)
+  Internet address is 192.168.1.1/30
+  MTU 1500 bytes, BW 26000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation MCNS, loopback not set
+  Keepalive set (10 sec)
+  ARP type: ARPA, ARP Timeout 3w3d
+  Last input 00:00:00, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/1024/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/1024 (size/max)
+  30 second input rate 94000 bits/sec, 41 packets/sec
+  30 second output rate 46000 bits/sec, 21 packets/sec
+     141460242 packets input, 46488216897 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     74051192 packets output, 22443338246 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 unknown protocol drops
+     0 output buffer failures, 0 output buffers swapped out
+
